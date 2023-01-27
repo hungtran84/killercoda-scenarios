@@ -10,6 +10,6 @@ Polaris can be run in three different modes:
 * As a `command-line tool`, so you can test local YAML files, e.g. as part of a CI/CD process.
 
 <p align="center">
-  <img src="assets/polaris-architecture.svg" alt="Polaris Architecture" width="550"/>
+  <img src="./assets/polaris-architecture.svg" alt="Polaris Architecture" width="550"/>
 </p>
 
