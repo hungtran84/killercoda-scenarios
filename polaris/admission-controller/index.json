@@ -1,0 +1,29 @@
+{
+  "title": "1. Install Polaris as Admission Controller",
+  "description": "Polaris can be run as an admission controller that acts as a validating webhook. This accepts the same configuration as the dashboard, and can run the same validations.",
+    "details": {
+      "intro": {
+        "text": "intro.md"
+      },
+      "steps": [
+        {
+          "title": "Install Polaris Admission Controller",
+          "text": "step1/step1.md"
+        },
+        {
+          "title": "Deploy a bad pod",
+          "text": "step2/step2.md"
+        },
+        {
+          "title": "See the policy in action",
+          "text": "step3/step3.md"
+        }
+      ],
+      "finish": {
+        "text": "finish.md"
+      }
+    },
+    "backend": {
+      "imageid": "kubernetes-kubeadm-2nodes"
+    }
+  }

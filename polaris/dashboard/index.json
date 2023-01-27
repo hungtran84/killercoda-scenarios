@@ -1,13 +1,13 @@
 {
-    "title": "Introduction to Polaris",
-    "description": "Let's learn Polaris!",
+    "title": "1. Install Polaris as Admission Controller",
+    "description": "The Polaris dashboard can be installed on a cluster using kubectl or Helm. The dashboard is a good way to understand what workloads inside your cluster or Infrastructure as Code don't conform to best practices.",
     "details": {
       "intro": {
         "text": "intro.md"
       },
       "steps": [
         {
-          "title": "Install Polaris Admission Controller",
+          "title": "Install Polaris Dashboard",
           "text": "step1/step1.md"
         },
         {
@@ -15,7 +15,7 @@
           "text": "step2/step2.md"
         },
         {
-          "title": "See the policy in action",
+          "title": "Using Dashboard",
           "text": "step3/step3.md"
         }
       ],

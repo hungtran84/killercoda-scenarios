@@ -9,6 +9,7 @@ Polaris can function as an admission controller that uses a webhook to validate 
 > A valid TLS certificate is necessary for the Polaris Validating Webhook to function.
 
 - Install cert-manager
+
 `kubectl apply -f https://github.com/cert-manager/cert-manager/releases/download/v1.11.0/cert-manager.yaml`{{exec}}
 
 
