@@ -1,0 +1,29 @@
+{
+    "title": "Introduction to Polaris",
+    "description": "Let's learn Polaris!",
+    "details": {
+      "intro": {
+        "text": "intro.md"
+      },
+      "steps": [
+        {
+          "title": "Install Polaris Admission Controller",
+          "text": "step1/step1.md"
+        },
+        {
+          "title": "Deploy a bad pod",
+          "text": "step2/step2.md"
+        },
+        {
+          "title": "See the policy in action",
+          "text": "step3/step3.md"
+        }
+      ],
+      "finish": {
+        "text": "finish.md"
+      }
+    },
+    "backend": {
+      "imageid": "kubernetes-kubeadm-2nodes"
+    }
+  }
