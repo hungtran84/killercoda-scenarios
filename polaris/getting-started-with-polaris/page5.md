@@ -17,14 +17,13 @@ Polaris can function as an admission controller that uses a webhook to validate 
 
 ```bash
 helm repo add fairwinds-stable https://charts.fairwinds.com/stable
-helm upgrade --install polaris fairwinds-stable/polaris \
-  --namespace polaris \ 
-  --create-namespace \
+helm upgrade --install polaris fairwinds-stable/polaris --namespace polaris  --create-namespace \
   --set webhook.enable=true \
   --set dashboard.enable=false
 ```
 
 - Make sure Polaris Webhook pods are up and running properly.
+
 `kubectl get pod -n polaris`{{exec}}
 
 - Check validating webhooks

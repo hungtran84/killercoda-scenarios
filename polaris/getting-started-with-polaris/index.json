@@ -1,0 +1,41 @@
+{
+  "title": "Getting started with Polaris",
+  "description": "Getting started with Polaris",
+    "details": {
+      "intro": {
+        "text": "intro.md"
+      },
+      "steps": [
+        {
+          "text": "page0.md"
+        },
+        {
+          "text": "page1.md"
+        },
+        {
+          "text": "page2.md"
+        },
+        {
+          "text": "page3.md"
+        },
+        {
+          "text": "page4.md"
+        }
+        // {
+        //   "text": "page5.md"
+        // },
+        // {
+        //   "text": "page6.md"
+        // },
+        // {
+        //   "text": "page7.md"
+        // }
+      ],
+      "finish": {
+        "text": "finish.md"
+      }
+    },
+    "backend": {
+      "imageid": "kubernetes-kubeadm-2nodes"
+    }
+  }
