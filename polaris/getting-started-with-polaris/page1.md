@@ -13,16 +13,17 @@ Polaris can function as an admission controller that uses a webhook to validate 
 
 - Install Polaris as Admission Controller
 
-```bash
+```plain
 helm repo add fairwinds-stable https://charts.fairwinds.com/stable
 helm upgrade --install polaris fairwinds-stable/polaris --namespace polaris  --create-namespace \
+  --set image.tag="7"
   --set webhook.enable=true \
   --set dashboard.enable=false
-```
+```{{exec}}
 
 - Make sure Polaris Webhook pods are up and running properly.
 
-`kubectl get pod -n polaris`{{exec}}
+`kubectl wait --for=condition=ready pod -l app=polaris -n polaris`{{exec}}
 
 - Check validating webhooks
 
