@@ -16,7 +16,7 @@ Polaris can function as an admission controller that uses a webhook to validate 
 ```plain
 helm repo add fairwinds-stable https://charts.fairwinds.com/stable
 helm upgrade --install polaris fairwinds-stable/polaris --namespace polaris  --create-namespace \
-  --set image.tag="7"
+  --set image.tag="7" \
   --set webhook.enable=true \
   --set dashboard.enable=false
 ```{{exec}}
