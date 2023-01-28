@@ -2,7 +2,7 @@
 
 Polaris can function as an admission controller that uses a webhook to validate incoming workloads. It uses the same configuration as the dashboard and can perform the same checks. Any workloads that fail a danger-level check will be rejected by the webhook, emphasizing Polaris's goal of not only promoting better configuration through visibility but also enforcing it through validation.
 
-## Installation
+# Installation
 
 > A valid TLS certificate is necessary for the Polaris Validating Webhook to function.
 

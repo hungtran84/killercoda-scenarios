@@ -7,9 +7,11 @@
       },
       "steps": [
         {
+          "title": "3 way to run Polaris",
           "text": "page0.md"
         },
         {
+          "title": "Run Polaris as an Admission Controller",
           "text": "page1.md"
         },
         {
