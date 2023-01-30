@@ -8,20 +8,21 @@
       "steps": [
         {
           "title": "3 way to run Polaris",
-          "text": "page0.md"
+          "text": "step1/step1.md"
         },
         {
           "title": "Run Polaris as an Admission Controller",
-          "text": "page1.md"
+          "text": "step2/step2.md",
+          "verify": "step2/verify.sh"
         },
         {
-          "text": "page2.md"
+          "text": "step3/step3.md"
         },
         {
-          "text": "page3.md"
+          "text": "step4/step4.md"
         },
         {
-          "text": "page4.md"
+          "text": "step5/step5.md"
         }
       ],
       "finish": {
